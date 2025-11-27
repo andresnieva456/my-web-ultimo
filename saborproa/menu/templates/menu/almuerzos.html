@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Almuerzos - Sabor PROA</title>
+    <link rel="stylesheet" href="{% static 'menu/estilos.css' %}">
+</head>
+<body>
+    <header>
+        <img src="{% static 'menu/banner.jpg' %}" alt="Banner del restaurante">
+        <h1>Sabor PROA</h1>
+        <nav>
+            <a href="/">Inicio</a>
+            <a href="/desayunos/">Desayunos</a>
+            <a href="/almuerzos/">Almuerzos</a>
+            <a href="/cenas/">Cenas</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Almuerzos</h2>
+        <ul>
+            <li>Milanesa con papas fritas</li>
+            <li>Ensalada César con pollo</li>
+            <li>Pasta casera con salsa</li>
+            <li>Empanadas criollas</li>
+            <li>Tarta de verdura con arroz</li>
+        </ul>
+    </main>
+</body>
+</html>

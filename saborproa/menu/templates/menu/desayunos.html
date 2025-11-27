@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Desayunos - Sabor PROA</title>
+    <link rel="stylesheet" href="{% static 'menu/estilos.css' %}">
+</head>
+<body>
+    <header>
+        <img src="{% static 'menu/banner.jpg' %}" alt="Banner del restaurante">
+        <h1>Sabor PROA</h1>
+        <nav>
+            <a href="/">Inicio</a>
+            <a href="/desayunos/">Desayunos</a>
+            <a href="/almuerzos/">Almuerzos</a>
+            <a href="/cenas/">Cenas</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Desayunos</h2>
+        <ul>
+            <li>Café con medialunas</li>
+            <li>Tostadas con mermelada y manteca</li>
+            <li>Huevos fritos con pan </li>
+            <li>Jugo de naranja </li>
+            <li>Yogur con frutas y cereales</li>
+        </ul>
+    </main>
+</body>
+</html>
